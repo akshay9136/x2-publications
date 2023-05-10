@@ -9,7 +9,7 @@ function Experience({ params }) {
     useEffect(() => {
         setMounted(true);
         if (mounted) {
-            Exp[`experience${params.bookName}`]();
+            Exp[`exp${params.bookName}`]();
         }
     }, [mounted]);
 

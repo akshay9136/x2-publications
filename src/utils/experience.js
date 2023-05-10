@@ -1,4 +1,4 @@
-export function experience164() {
+export function exp164words() {
     const canvas = document.getElementById("canvas");
     const ctx = canvas.getContext('2d');
   
@@ -84,7 +84,7 @@ export function experience164() {
     });
 };
 
-export function experience82() {
+export function exp82colors() {
     const canvas = document.getElementById("canvas");
     const ctx = canvas.getContext("2d");
     const width = window.innerWidth;

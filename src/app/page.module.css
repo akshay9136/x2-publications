@@ -1,11 +1,24 @@
 .bookNames {
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(90deg, black 50%, white 50%);
 }
 
 .bookNames h1 {
     margin: 0.5rem 0;
+    color: gray;
+    margin-left: -1.2rem;
+}
+
+.bookCover {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
