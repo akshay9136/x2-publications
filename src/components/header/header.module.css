@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+    height: 72px;
+    padding: 1.5rem 1rem;
+    border-bottom: 2px solid #fff;
+}
+
+.header h3 {
+    margin-right: 3rem;
+}

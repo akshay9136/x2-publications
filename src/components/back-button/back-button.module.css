@@ -1,0 +1,10 @@
+.backButton {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    z-index: 100;
+    cursor: pointer;
+    position: fixed;
+    bottom: 30px;
+    right: 70px;
+}
