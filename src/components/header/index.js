@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import Link from 'next/link';
 import styles from './header.module.css';
 import { useParams } from 'next/navigation';
@@ -12,7 +12,6 @@ const bookStyleMap = {
     '164words': {
         backgroundColor: 'black',
         color: 'white',
-        borderBottom: '2px solid white',
     },
     '82colors': {
         backgroundColor: 'white',
@@ -27,7 +26,7 @@ export default function Header() {
         <div className={styles.header} style={bookStyleMap[bookName]}>
             <h3>KRISHIKA JAIN</h3>
             <h3><Link href="/">X2 PUBLICATIONS</Link></h3>
-            <h3>{bookTitleMap[bookName]}</h3>
+            <h3><Link href={`/${bookName}`}>{bookTitleMap[bookName]}</Link></h3>
         </div>
     )
 }
